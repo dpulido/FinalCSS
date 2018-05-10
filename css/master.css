@@ -1,3 +1,7 @@
+/*estilo pagina*/
+*{
+	margin:0;
+}
 body{
   background-color: #eeeeee;
 }
@@ -5,6 +9,7 @@ header{
   background-color: #5b7989;
   border-radius: 10px;
   padding: 15px;
+  width: 960px;
 }
 h1{
   text-align: left;
@@ -13,4 +18,63 @@ h1{
 }
 a:link{
 text-decoration:none;
-} 
+}
+
+/*estilo imagenes*/
+img{
+  width: 400px;
+  height: 200px;
+}
+#MiDisenoMobil{
+  width: 960px;
+  margin: 0 auto;
+}
+article{
+  box-sizing: border-box;
+  float: left;
+  height: 100%;
+  padding: 2px;
+}
+#imagen1{
+  width: 100%;
+  background-color: #82c3a6;
+}
+#imagen2{
+  width: 40%;
+}
+#imagen3{
+  width: 40%;
+}
+
+@media screen and (max-width: 960px){
+	#MiDisenoMobil{
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 640px){
+	#MiDisenoMobil{
+		width: 100%;
+		margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 480px){
+    #MiDisenoMobil{
+  		width: 100%;
+  		margin: 0 auto;
+  	}
+  	#imagen1{
+  	width: 100%;
+  	}
+  	#imagen2{
+  	width: 100%;
+  	}
+  	#imagen3{
+  	width: 100%;
+  	}
+  	header{
+  	width:100%;
+  	}
+}
