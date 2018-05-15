@@ -1,0 +1,82 @@
+/*estilo pagina*/
+font-family: 'Dancing Script', cursive;
+*{
+  color: white
+}
+
+header{
+  background-color: #5b7989;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px 20px;
+  word-spacing: 10px;
+  overflow: hidden;
+  text-shadow: 2px 2px 2px #02010a;
+}
+header p{
+  font-size: 1.5rem;
+  text-align: left;
+  position: relative;
+  margin-top: 0;
+}
+header #encabezado{
+  float: left;
+  text-shadow: 2px #02010A;
+  width: 40%;
+}
+header nav{
+  float: right;
+  width: 60%;
+}
+nav, ul{
+  list-style: none;
+  margin-top: 0;
+}
+header nav ul{
+  float: right;
+}
+header nav ul li{
+  display: inline-block;
+  margin-left: 30px;
+}
+
+footer{
+  margin-top: 15px;
+  background-color: #C6d5c5;
+  border-radius: 0px 0px 10px 10px;
+  padding: 20px 20px;
+  word-spacing: 10px;
+  overflow: hidden;
+  width: 100%;
+}
+footer div{
+  float: left;
+  padding: 2%;
+  text-align: center;
+  width: 20%;
+  display: block;
+}
+/*
+text-shadow: 2px 2px 2px #02010a;
+*/
+
+body{
+  padding: 10px
+}
+/*
+
+estilo imagenes
+#MiDisenoMobil{
+  margin: 0;
+  width: 100%;
+
+  }
+section img{
+  padding: 10px 0px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+*/
+/*
+*/
